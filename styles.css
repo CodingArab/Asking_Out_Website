@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(179, 15, 190);
+}
+
+#noButton  {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+    margin-top: 20px; /* Space from the top */
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+    left: 50%; /* Center the button */
+    transform: translateX(-50%); /* Adjust for the width of the button to truly center it */
+    margin-top: 20px; /* Space from the top */
+}
+
+.header_text {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 207, 15);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color:rgb(255, 207, 15);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    width: 80%; /* Adjust as needed */
+    margin: auto;
+    padding: 20px;
+    /* Add any additional styles for container */
+}
+
+.gif_container {
+    /* Style for the div that contains the gif */
+    text-align: center; /* Center the gif image */
+    margin-top: 20px; /* Space from the top */
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+    background-color: rgb(255, 9, 9); /* Darker shade when hovered */
+    color: rgb(215, 198, 198);
+}
+
+/* Animations (if desired) */
+@keyframes example {
+    from {background-color: cornflowerblue;}
+    to {background-color: rgb(251, 6, 6);}
+}
+
+.btn {
+    animation-name: example;
+    animation-duration: 4s;
+}
+/* Note: Adjust the values according to your design needs */

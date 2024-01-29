@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(255, 223, 43);
+}
+
+.header_text {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(105, 147, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.container {
+    width: 80%; /* Adjust as needed */
+    margin: auto;
+    padding: 20px;
+    /* Add any additional styles for container */
+}
+
+.gif_container {
+    /* Style for the div that contains the gif */
+    text-align: center; /* Center the gif image */
+    margin-top: 20px; /* Space from the top */
+    margin-bottom: 50px;
+}
